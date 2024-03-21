@@ -12,12 +12,12 @@ For example, instead of having to configure each local domain with an unused por
 ## Usage
 
 - Include the network settings as a top-level element in each project's `compose.yaml` file:
-```yaml
-networks:
-  default:
-    name: localhost-network
-    external: true
-```
+  ```yaml
+  networks:
+    default:
+      name: localhost-network
+      external: true
+  ```
 - Don't include ports in the project's frontend services as the localhost-network will take care of them. Backend services, such as databases should use ports as normal.
 
-Example projects that use the localhost-network include [Docker WordPress Setup](https://github.com/jacobcassidy/docker-wordpress-setup) and [Docker Nginx PHP-FPM Setup](https://github.com/jacobcassidy/docker-nginx-phpfpm-setup).
+> Example projects that use the localhost-network include [Docker WordPress Setup](https://github.com/jacobcassidy/docker-wordpress-setup) and [Docker Nginx PHP-FPM Setup](https://github.com/jacobcassidy/docker-nginx-phpfpm-setup).

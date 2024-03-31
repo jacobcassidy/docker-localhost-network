@@ -1,3 +1,5 @@
+> This repo has been replaced with the [Docker Nginx Proxy Setup](https://github.com/jacobcassidy/docker-nginx-proxy-setup) and is now archived.
+
 # Docker Localhost Network
 
 These files create a local Docker network using nginx-proxy as a reverse proxy to allow multiple local domain names to use the same standard 80 or 443 ports.
